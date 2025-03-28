@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "dead-server --host=localhost --port=5404",
+    "dev": "dead-server --host=localhost --port=5407",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [ "coming-soon", "css", "html", "response-web"],
+  "author": "jurgita kuci",
   "license": "ISC",
-  "description": "",
+  "description": "comming-soon",
   "devDependencies": {
     "dead-server": "^1.0.9"
   }
