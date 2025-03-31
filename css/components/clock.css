@@ -1,0 +1,21 @@
+.clock {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    color: #fff;
+  }
+  .clock > .time {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    width: 100%;
+    text-align: center;
+  }
+  .clock > .time > .value {
+    font-size: 4.5rem;
+    font-weight: bold;
+  }
+  .clock > .time > .label {
+    font-size: 1rem;
+    text-transform: uppercase;
+  }

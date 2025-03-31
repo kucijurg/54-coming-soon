@@ -1,2 +1,8 @@
+/* base */
 @import '../base/main.css';
+
 @import '../base/layout.css';
+/* components */
+@import '../components/clock.css';
+/* custom */
+

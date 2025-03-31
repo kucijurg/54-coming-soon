@@ -31,3 +31,12 @@ body{
 .center{
     text-align: center;
 }
+.hero{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(../../img/hero.png);
+    background-position: center;
+    /* background-attachment: fixed; skrolinant nuotrauka nejuda*/
+    background-repeat: no-repeat;
+    background-size: cover;
+}
