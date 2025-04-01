@@ -40,3 +40,37 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+footer {
+    color: #fff;
+  }
+  
+  .trio {
+    display: flex;
+    gap: 0.7rem;
+    align-items: center;
+    justify-content: center;
+  }
+  .trio p {
+    display: flex;
+    align-items: center;
+  }
+  .trio > p::after {
+    content: '';
+    display: inline-block;
+    width: 2px;
+    height: 1em;
+    margin-left: 0.7rem;
+    background-color: #fff;
+  }
+  .trio > p:last-child::after {
+    display: none;
+  }
+  
+  @media (max-width: 700px) {
+    .trio {
+      flex-direction: column;
+    }
+    .trio > p::after {
+      display: none;
+    }
+  }
